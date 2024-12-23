@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* ---------------nav start----------- */
+header {
+  position: absolute;
+  width: 100%;
+  margin-top: 50px;
+}
+header nav .navbar-nav{
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+header nav .navbar-nav .nav-list{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400px;
+  color: #474747;
+  background: #FD6E0A transparent;
+  padding: 18px 35px;
+  border-radius:5px;
+}
+header nav .navbar-nav .nav-list:hover{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #FD6E0A;
+  padding: 18px 35px;
+  border-radius:5px;
+}
+header nav .navbar-nav .nav-item .active{
+  background: #FD6E0A;
+  padding: 18px 35px;
+  border-radius:5px ;
+
+}
+header nav .navbar-nav .nav-item .active:hover{
+  background: #FD6E0A;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+/* ---------------nav end----------- */
+/* ---------------banner_start----------- */
+#banner_part{
+  background: #FFF8F3;
+}
+#banner_part .banner_item{
+  display: flex;
+  padding: 161px 0 130px;
+}
+#banner_part .left_text{
+  width: 50%;
+}
+#banner_part .left_text h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 5px;
+}
+#banner_part .left_text h2{
+  font-family: "Open Sans", sans-serif;
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+#banner_part .left_text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 30px;
+}
+#banner_part .left_text button{
+  border: none;  
+  transition: .4s;  
+}
+#banner_part .left_text .button2{
+  margin-left: 30px;
+}
+
+#banner_part .left_text button a{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FD6E0A;
+  padding: 18px 35px;  
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 3px solid #FD6E0A;
+}
+#banner_part .left_text button a .download{
+  margin-right: 10px;
+}
+#banner_part .left_text button a .phone{
+  margin-right: 10px;
+}
+#banner_part .left_text button a:hover{
+  color: #FFFFFF; 
+  background: #FD6E0A;  
+}
+#banner_part .right_image{
+  width: 50%; 
+}
+
+#banner_part .main_header h1 {
+  position: absolute;
+  top: 325px;
+  left: -265px;
+  transform: rotate(-90deg);
+  font-family: "Open Sans", sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: rgb(24, 24, 24, 0.15);
+  letter-spacing: 33px;
+}
+
+/* ---------------banner_end----------- */
+/* ---------------about_start----------- */
+#about_part{
+  margin-top: 130px;
+}
+.about{
+  background: #FFF8F3;
+}
+#about_part .maintext{
+  text-align: center;
+}
+#about_part .maintext h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color:#181818;
+  padding: 131px 0 30px;
+}
+#about_part .mailinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+  padding-bottom: 131px;
+}
+#about_part .maintext p {
+  margin-left: 145px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  width: 827px;
+}
+#about_part .mailinfo h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+}
+#about_part .mailinfo h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #757575;
+}
+#about_part .info_one  {
+  text-align: center;
+}
+/* ---------------about_end----------- */
+/* ---------------exp_start----------- */
+#experiance_part .title{
+  text-align: center; 
+}
+#experiance_part .title h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color:#181818; 
+  padding: 130px 0 30px;
+}
+#experiance_part .title p{
+  margin-left: 145px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  width: 909px;
+}
+#experiance_part .card_01 h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #181818;
+  margin: 30px 0 20px;
+}
+#experiance_part .card_01 {
+  background: #f1eded;
+  padding: 30px 31px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+#experiance_part .card_01 p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+}
+/* ---------------exp_end----------- */
+/* ---------------resume start----------- */
+#resume_Part{
+  padding: 130px 0 113px;
+}
+#resume_Part .resume_title h2{
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 113px;
+}
+#resume_Part .education h3{
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+#resume_Part .education h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin:30px 0 10px;
+}
+#resume_Part .education span{
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+#resume_Part .education p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+  padding-bottom: 30px;
+  width: 511px;
+}
+#resume_Part .education .mycertdetails{
+  border-top: 2px solid #757575;
+}
+#resume_Part .button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#resume_Part .button button{
+  border: none;
+}
+#resume_Part button a{
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FD6E0A;
+  padding: 18px 35px;  
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 3px solid #FD6E0A;
+}
+#resume_Part button a .download{
+  margin-right: 10px;
+}
+
+#resume_Part button a:hover{
+  color: #FFFFFF; 
+  background: #FD6E0A;  
+}
+
+/* ---------------resume end----------- */
+/* ---------------footer----------- */
+footer{
+  background: #FFF8F3;
+  padding: 130px 0;
+}
+footer h4{
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 20px;
+}
+footer p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+  margin-top: 30px;
+}
+footer .icon ul{
+  list-style: none;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+footer .icon ul li a{
+  color: #FD6E0A;
+}
+footer .footer_right input{
+  padding: 18px 349px 18px 30px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: none;
+  margin-bottom: 24px;
+}
+footer .footer_right .name{
+  margin-top: 28px;
+}
+footer .footer_right input::placeholder{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #757575;
+}
+footer .footer_right .massage{
+  padding: 18px 349px 134px 30px;
+}
+footer .footer_right button{
+  border: none;
+}
+footer .footer_right button a{
+  padding: 19px 39px;
+  color: #FD6E0A;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: #FFFFFF;
+  border: 1px solid #FD6E0A;
+}
+footer .footer_right button a:hover{
+  background: #FD6E0A;
+  color: #FFFFFF;
+}
+/* ---------------footer----------- */
